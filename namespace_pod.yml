@@ -8,3 +8,5 @@ spec:
   containers:
  -name: mypod
     image: nginx
+
+kubectl apply -f pod.yaml --namespace=mynamespace
